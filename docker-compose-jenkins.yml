@@ -1,0 +1,9 @@
+jenkins:
+    image: docker.io/jenkins:latest
+    ports:
+      - "8080:8080"
+      - "50000:50000"
+    volumes:
+      - "/etc/localtime:/etc/localtime"
+      - "/home/jenkins:/var/jenkins_home"
+    restart: always
