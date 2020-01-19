@@ -13,7 +13,7 @@
 
     cd ~
 
-    https://github.com/hqh546020152/cicd_install_blog.git
+    https://github.com/syzhh/cicd_install_blog.git
 
     cd cicd_install_blog
 
